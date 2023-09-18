@@ -1,0 +1,246 @@
+
+body {
+    margin: 0px
+}
+
+#navbar {
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+
+}
+
+#navbar ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6F6AF7;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#nav-logo {
+    width: 7rem;
+    margin-right: 1em;
+    margin-left: 2em;
+}
+
+.searchbar {
+    width: 17vw;
+    height: 5vh;
+    border-radius: 63px;
+    background-color: #FFFFFF;
+    border: 0px;
+    padding-left: 1.9em;
+    font-size: 0.9rem;
+}
+
+.searchicon {
+    height: 3vh;
+    position: relative;
+    right: 2.2em;
+    top: 0.4em;
+}
+
+#hamburger {
+    width: 3vw;
+}
+
+
+.nav-options {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.2em;
+}
+
+#top-container {
+    height: 49.4vh;
+    width: 86vw;
+    display: flex;
+    flex-direction: row;
+    margin: 110px 0px 0px 75px;
+}
+
+.left-banner {
+    height: 100%;
+}
+
+.right-banner {
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #E5D8FF;
+    padding: 0px 60px 0px 35px;
+    font-size: 25px;
+    line-height: 51.82px;
+    color: rgba(111, 115, 115, 1);
+
+}
+
+#mid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.card {
+    width: 260px;
+    height: 100px;
+    border-radius: 11px;
+    border: 2px white;
+    font-size: 20px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.cardone {
+    background-color: #6F6AF7;
+}
+
+.cardtwo {
+    background-color: #734CF2;
+}
+
+.cardthree {
+    background-color: #D288FF;
+}
+
+.cardfour {
+    background-color: #000000;
+}
+
+#social-logos {
+    position: sticky;
+    top: 80px;
+    margin-top: 15vh;
+    float: right;
+}
+
+#social-logos img {
+    height: 50px;
+    padding-top: 1px;
+    display: block;
+
+}
+
+.whatsapp {
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#bottom-container {
+    width: 100vw;
+    height: 91vh;
+}
+
+#info-card {
+    display: flex;
+    height: 85%;
+    width: 87%;
+    border-radius: 21px;
+    background-color: #483EFF;
+    margin-left: 90px;
+    margin-top: 190px;
+}
+
+#options-choose {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 45px;
+}
+
+.options {
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+    font-weight: 700;
+    width: 280px;
+    height: 100px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+}
+
+.option-one {
+    background-color: #BCE0F6;
+    color: #000000;
+    border: 0px;
+}
+
+#options-display {
+    position: relative;
+    height: 100;
+    background-color: white;
+    width: 100%;
+    border-radius: 19px;
+    margin: 20px 20px 20px 50px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-left: 70px;
+    margin-bottom: -5px;
+}
+
+#options-display ul {
+    width: 93%;
+    border-radius: 19px;
+    padding-left: 105px;
+
+
+}
+
+#options-display ul li {
+    font-size: 28px;
+    padding-top: 20px;
+    list-style: none;
+
+}
+
+
+.Next {
+    position: absolute;
+    left: 75%;
+    top: 83%;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    background-color: #000000;
+    border-radius: 9px;
+    height: 50px;
+    width: 150px;
+}
+
+button img {
+    width: 23px;
+}
+
+.help {
+    height: 120px;
+    position: fixed;
+    top: 84%;
+    left: 90%;
+}
+
+/* done by Zaman  */
